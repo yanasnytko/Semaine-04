@@ -18,4 +18,4 @@ Vous allez réaliser votre première app avec une API. Il s'agit de contacter ce
 * Le layout sera une page **index.html**. Le style est libre mais il faut utiliser **obligatoirement** Flexbox et/ou Grid
 * Il faut lier les deux pages
 * Ajoutez une animation pour l'affichage de la quote
-* Ajoutez la possibilité de FETCH une nouvelle quote en cliquant sur l'actuelle.
+* Ajoutez la possibilité de FETCH une nouvelle quote en cliquant sur l'actuelle
