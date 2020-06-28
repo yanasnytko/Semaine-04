@@ -13,9 +13,9 @@ Vous allez réaliser votre première app avec une API. Il s'agit de contacter ce
 
 ## Consigne
 
-* L'entièreté du script devra se trouver dans un fichier **script.js**
+* L'entièreté du script devra se trouver dans un fichier **script.js** pour vous aider, inspirez vous des exercices proposés de  cette semaine
   * L'API à utilisé se trouve ici: [https://type.fit/api/quotes](https://type.fit/api/quotes)
 * Le layout sera une page **index.html**. Le style est libre mais il faut utiliser **obligatoirement** Flexbox et/ou Grid
-* Il faut lié les deux pages
+* Il faut lier les deux pages
 * Ajoutez une animation pour l'affichage de la quote
 * Ajoutez la possibilité de FETCH une nouvelle quote en cliquant sur l'actuelle.
