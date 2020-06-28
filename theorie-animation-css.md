@@ -1,6 +1,17 @@
-# Animation CSS
+<!-- omit in toc -->
+# Animation CSS (débutant)
 
 Les animations CSS permettent d'animer n'importe quel élément sur votre page web. Elles suppriment aussi le besoin d'utilisé du JavaScript ou du JQuerry. Elles sont facile à utiliser une fois qu'on a pris le pas.
+
+- [Transform](#transform)
+  - [Translate](#translate)
+  - [Scale](#scale)
+  - [Rotate](#rotate)
+  - [Skew](#skew)
+  - [Multiple valeurs](#multiple-valeurs)
+- [Transition](#transition)
+- [Keyframes](#keyframes)
+- [Amusez-vous](#amusez-vous)
 
 ## Transform
 
@@ -139,3 +150,46 @@ Cela nous fait déjà beaucoup de contrôle sur notre transition, mais il existe
 
 ## Keyframes
 
+C'est avec les keyframes qu'on va définir comment notre animation fonctionne et qu'on va pouvoir allez plus loin. Ce sont des "bloc" d'animation qu'on va pouvoir appliquer sur nos éléments. On va définir un état de base (from) et on va définir un état d'arrivé (to). Voyons cela en pratique.
+
+```css
+@keyframes move-right{
+  from{ transform: translate(0) }
+  to{ transform: translate(500px) } 
+}
+```
+
+On définit notre animation, dans ce cas un déplacement de 500px vers la droite.
+
+Pour appliquer cette animation à un élément il suffit d'utiliser la propriété `animation-name` et `animation-duration`.
+
+```css
+.element{
+  animation-name: move-right;
+  animation-duration: 3s;
+}
+```
+
+> :exclamation: il est important de mettre le même nom que celui appliqué à la keyframe et il est également nécessaire de mettre une durée.
+
+On retrouve également quelques propriétés déjà vue dans les transition:
+
+* animation-timing-function: détermine l'accélération de l'animation
+* animation-delay: détermine le délai avant de commencer l'animation
+* animation-direction: détermine le sens de l'animation.
+  
+[En voici d'autres](https://css-tricks.com/almanac/properties/a/animation/#sub-properties)
+
+## Amusez-vous
+
+C'est à vous de jouer maintenant, créez des animations, tentez des choses, voyez comment ça se comporte.
+
+Voici un [lien vers un site](https://animista.net/) qui vous permet d'expérimenter toutes sortes d'animation.
+
+Consultez aussi [cette page interactive](https://rupl.github.io/unfold/) pour voir la puissance du CSS
+
+Et voici 3 petits jeux réalisés en CSS:
+
+* [Roadmap](http://victordarras.fr/cssgame)
+* [Target Carnival](https://codepen.io/una/pen/NxZaNr)
+* [Tic-Tac-Toe](https://codepen.io/alvaromontoro/pen/BexWOw)

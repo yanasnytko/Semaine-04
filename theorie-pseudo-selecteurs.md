@@ -1,24 +1,24 @@
+<!-- omit in toc -->
 # Les pseudo sélecteurs
 
 Vous avez peut-être déjà vu certains mot-clé derrière des sélecteurs en CSS (hover, link, visisted, active, first-child,...). Ce sont les pseudo sélecteurs, on en distingue de deux types: les **pseudo-elements** et les **pseudo-class**.
 
-- [Les pseudo sélecteurs](#les-pseudo-sélecteurs)
-  - [Pseudo-class](#pseudo-class)
-    - [Les liens](#les-liens)
-    - [Focus](#focus)
-    - [Pseudo-class et CSS Class](#pseudo-class-et-css-class)
-    - [First-child](#first-child)
-    - [Last-child](#last-child)
-    - [First-of-type](#first-of-type)
-    - [Last-of-type](#last-of-type)
-    - [Nth-child](#nth-child)
-    - [Nth-last-child](#nth-last-child)
-    - [Toutes les pseudo-class](#toutes-les-pseudo-class)
-  - [Pseudo-Element](#pseudo-element)
-    - [After & Before](#after--before)
-    - [First-letter & First-line](#first-letter--first-line)
-    - [Selection](#selection)
-    - [Tous les pseudo-element](#tous-les-pseudo-element)
+- [Pseudo-class](#pseudo-class)
+  - [Les liens](#les-liens)
+  - [Focus](#focus)
+  - [Pseudo-class et CSS Class](#pseudo-class-et-css-class)
+  - [First-child](#first-child)
+  - [Last-child](#last-child)
+  - [First-of-type](#first-of-type)
+  - [Last-of-type](#last-of-type)
+  - [Nth-child](#nth-child)
+  - [Nth-last-child](#nth-last-child)
+  - [Toutes les pseudo-class](#toutes-les-pseudo-class)
+- [Pseudo-Element](#pseudo-element)
+  - [After & Before](#after--before)
+  - [First-letter & First-line](#first-letter--first-line)
+  - [Selection](#selection)
+  - [Tous les pseudo-element](#tous-les-pseudo-element)
 
 ## Pseudo-class
 
@@ -126,7 +126,7 @@ La pseudo-class `:first-of-type` va sélectionner tous les éléments dont c'est
 </style>
 <article>
   <div>Je suis la première div</div>
-  <div>Je suis le premier <span>span</span>
+  <div>Je suis le premier <span>span</span></div>
   <p>Je suis le premier paragraphe</p>
   <div>Et moi je suis la dernière div</div>
 </article>

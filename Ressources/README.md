@@ -1,21 +1,15 @@
 # Ressources
 
-## Ressources vidéos
+## CSS
 
-Insérer ici les liens des ressources vidéos nécessaires à la réalisation de l'exercice
+[Animation](https://css-tricks.com/almanac/properties/a/animation)
+[Liste des propriété animables](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
+[Les formules pour nth-child](https://css-tricks.com/how-nth-child-works/)
+[Les pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+[Les pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 
-### Titre de l'exercice
+Quelques petits jeux en CSS uniquement:
 
-Lien vers la/les vidéo associée(s)
-
-## Ressources audio
-
-### Titre de l'exercice
-
-Lien vers le/les podcast associé(s)
-
-## Ressources bibliographiques
-
-### Titre de l'exercice
-
-Lien vers les articles / livres associés
+* [Roadmap](http://victordarras.fr/cssgame)
+* [Target Carnival](https://codepen.io/una/pen/NxZaNr)
+* [Tic-Tac-Toe](https://codepen.io/alvaromontoro/pen/BexWOw)
