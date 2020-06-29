@@ -14,11 +14,11 @@ On aura besoin d'un peu d'animation sur cette application. Pour ce faire on va v
 
 ### JS
 
-Vous retrouvez un dossier **exercices-javascript**
+Vous retrouverez tous les exercices dans le dossier **exercices-javascript**
 
 ### CSS
 
-Vous retrouverez bientôt un dossier **exercices-css**
+Vous retrouverez tous les exercices dans le dossier **exercices-css**
 
 ### Quote of the day
 

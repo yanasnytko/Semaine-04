@@ -11,6 +11,8 @@ Les animations CSS permettent d'animer n'importe quel élément sur votre page w
   - [Multiple valeurs](#multiple-valeurs)
 - [Transition](#transition)
 - [Keyframes](#keyframes)
+  - [From & To](#from--to)
+  - [Pourcentages](#pourcentages)
 - [Amusez-vous](#amusez-vous)
 
 ## Transform
@@ -138,7 +140,7 @@ Vous pouvez aussi spécifier un délai avant que la transition ne se lance. Pour
 }
 ```
 
-Cela nous fait déjà beaucoup de contrôle sur notre transition, mais il existe une dernière valeur que l'on peut associer à notre transition. Il s'agit de la "fonction de temps" (timing-function). Cela détermine l'accélération de notre animation. Par défaut il s'agit de `linear` mais il en existe d'autres comme `ease-in`, `ease-out`,...
+Cela nous fait déjà beaucoup de contrôle sur notre transition, mais il existe une dernière valeur que l'on peut associer à notre transition. Il s'agit de la "fonction de temps" (timing-function). Cela détermine l'accélération de notre animation. Par défaut il s'agit de `linear` mais il en existe d'autres comme `ease-in`, `ease-out`,... Vous pouvez également créer votre propre accélération avec le `cubic-bezier`.
 
 ```css
 .element{
@@ -146,9 +148,13 @@ Cela nous fait déjà beaucoup de contrôle sur notre transition, mais il existe
 }
 ```
 
+[Cubic-bezier](https://cubic-bezier.com)
+
 [Liste des propriété animables](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
 
 ## Keyframes
+
+### From & To
 
 C'est avec les keyframes qu'on va définir comment notre animation fonctionne et qu'on va pouvoir allez plus loin. Ce sont des "bloc" d'animation qu'on va pouvoir appliquer sur nos éléments. On va définir un état de base (from) et on va définir un état d'arrivé (to). Voyons cela en pratique.
 
@@ -179,6 +185,20 @@ On retrouve également quelques propriétés déjà vue dans les transition:
 * animation-direction: détermine le sens de l'animation.
   
 [En voici d'autres](https://css-tricks.com/almanac/properties/a/animation/#sub-properties)
+
+### Pourcentages
+
+Il est également possible de diviser votre animation en utilisant des %. Pour chaque x% on va définir les états de notre animation. De 0% à 100% est accompli en fonction de la durée définie.
+
+```css
+@keyframes mymove {
+  0%   {top: 0px;}
+  25%  {top: 200px;}
+  50%  {top: 100px;}
+  75%  {top: 200px;}
+  100% {top: 0px;}
+}
+```
 
 ## Amusez-vous
 
