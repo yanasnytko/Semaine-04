@@ -25,8 +25,7 @@ Permet de déplacer l'élément sur un axe horizontale (X) ou verticale (Y)
 
 ```css
 .element{
-  transform: translateX(200px);
-  transform: translateY(-50px);
+  transform: translateX(200px) translateY(-50px);
   }
 ```
 
@@ -34,7 +33,7 @@ Permet de déplacer l'élément sur un axe horizontale (X) ou verticale (Y)
 
 ![translate](Images/translate.gif)
 
-> :bulb: Il est également possible de combiner les deux axes en une seule ligne `transform: translate (200px, -50px)`
+> :bulb: Il est également possible de combiner les deux axes en une seule ligne `transform: translate(200px, -50px)`
 
 ### Scale
 
