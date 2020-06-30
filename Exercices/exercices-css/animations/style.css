@@ -1,0 +1,30 @@
+/* Exercice 1 */
+#ex1 {
+height: 450px;
+}
+
+#square {
+  width: 200px;
+  height: 200px;
+  animation: move 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes move {
+  0%   {background-color: blue;
+        transform: translateX(0px) translateY(0px);
+        }
+  25%  {background-color: blueviolet;
+        transform: translateX(200px) translateY(0px);
+        }
+  50%  {background-color: violet;
+        transform: translateX(200px) translateY(200px);
+        }
+  75%  {background-color: grey;
+        transform: translateX(0px) translateY(200px);
+        }
+  100% {background-color: blue;
+        transform: translateX(0px) translateY(0px);
+        }
+}

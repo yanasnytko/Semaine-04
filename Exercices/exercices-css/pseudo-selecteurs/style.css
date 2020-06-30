@@ -1,0 +1,80 @@
+/* Exercice 0 - CSS Diner */
+#ex0 img {
+  width: 700px;
+}
+
+/* Exercice 1 - 5 liens */
+a {
+  margin: 20px;
+}
+#fb {
+  color: rgba(12, 135, 239, 0.5);
+}
+#yt {
+  color: rgba(255, 0, 0, 0.5);
+}
+#vk {
+  color: rgba(74, 118, 168, 0.5);
+}
+#sirius {
+  color: rgba(46, 64, 136, 0.5);
+}
+#gmail {
+  color: rgba(187, 71, 62, 0.5);
+}
+
+a:hover {
+  text-transform: uppercase;
+}
+#fb:hover {
+  color: rgba(12, 135, 239, 1);
+}
+#yt:hover {
+  color: rgba(255, 0, 0, 1);
+}
+#vk:hover {
+  color: rgba(74, 118, 168, 1);
+}
+#sirius:hover {
+  color: rgba(46, 64, 136, 1);
+}
+#gmail:hover {
+  color: rgba(187, 71, 62, 1);
+}
+
+a::before {
+  content: '> ';
+}
+a::after {
+  content: ' <';
+}
+
+/* Exercice 2 - Tableau */
+#gameOfTheYear {
+  width: 100%;
+}
+td, th {
+  border: 1px darkblue solid;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+tr:nth-child(odd) {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+tr:nth-child(even):hover {
+  background-color: rgba(0, 0, 255, 0.5);
+  color: white;
+}
+tr:nth-child(odd):hover {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+}
+
+th {
+  padding: 12px 0;
+  background-color: #fff;
+  color: black;
+}
