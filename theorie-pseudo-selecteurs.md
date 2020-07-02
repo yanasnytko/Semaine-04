@@ -180,6 +180,7 @@ a:nth-child(3n+3){
 
 > :bulb: Il est possible de raccourcir cette formule par `3n` pour sélectionner, du coup, tous les 3 éléments.
 
+> ✅ Le + dans la formule permet de démarrer le compte à commençant par le chiffre qui suit. Par exemple: 3n+5 va sélectionner tous les 3 éléments en commençant par le cinquième.
 
 [En apprendre plus sur les formules](https://css-tricks.com/how-nth-child-works/)
 

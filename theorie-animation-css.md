@@ -29,7 +29,7 @@ Permet de déplacer l'élément sur un axe horizontale (X) ou verticale (Y)
   }
 ```
 
-> :bulb: il est intéressant de noter que en utilisant translate, les autres contenu ne vont pas bougé.
+> :bulb: il est intéressant de noter que en utilisant translate, les autres contenu ne vont pas bouger.
 
 ![translate](Images/translate.gif)
 
