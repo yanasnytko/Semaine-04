@@ -1,3 +1,50 @@
 body{
-  width: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: ghostwhite;
+  text-align: right;
+  padding: 10vh 20%;
+  background-image: url(landscape.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template: [row1-start] "title title title" 15vh [row1-end] [row2-start] "quote quote quote" 30vh [row2-end] / 1fr 1fr 1fr;
+  justify-items: end;
+}
+
+#title {
+  grid-area: title;
+}
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+#title p {
+  font-weight: 300;
+  margin-top: 0;
+  color: rgb(0, 0, 150);
+}
+
+#button {
+  grid-area: quote;
+  background-color: rgba(0, 0, 150, 0.1);
+  padding: 10px;
+  height: 500px;
+  margin-top: 25px;
+}
+#author {
+  font-size: 2em;
+}
+
+#quote {
+  padding-top: 5vh;
+  font-size: 4em;
+  font-style: italic;
+  padding-top: 0;
+  margin: 0;
+  transition: font-size 1s;
+}
+#quote:hover, #quote:focus {
+  font-size: 4.2em;
 }

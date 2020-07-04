@@ -33,7 +33,7 @@ div.logo {
     margin-top: 2%;
     margin-bottom: 5%;
 }
-div.first-titles-container { 
+div.first-titles-container {
     padding: 50px;
     width: 30%;
 }
@@ -64,7 +64,7 @@ div.text{
     margin: 5%;
     width: 30%;
     border-radius: 10px 10px 10px 10px;
-    
+
 }
 /* Images */
 img.logo {
@@ -80,5 +80,4 @@ button {
 	width:100px;
     border:1px solid #ccc;
     margin-left: 30%;
-    margin-bottom: 20%;
 }
