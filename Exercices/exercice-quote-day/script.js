@@ -14,5 +14,6 @@ function changeQuote() {
       }
     })
 }
+changeQuote();
 
 document.getElementById("button").addEventListener("click", changeQuote);
